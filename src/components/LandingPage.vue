@@ -180,7 +180,6 @@
 }
 
 .img img {
-  position: a bsolute;
   width: 300px;
   height: 475px;
   left: 575px;
