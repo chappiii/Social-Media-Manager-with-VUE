@@ -1,0 +1,35 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bi_15_703)">
+<circle cx="45" cy="45" r="45" fill="#FF0000" fill-opacity="0.05"/>
+</g>
+<g filter="url(#filter1_bi_15_703)">
+<circle cx="45" cy="45" r="36" fill="#FF0000" fill-opacity="0.11"/>
+</g>
+<path d="M46.0846 71.9291L35.0498 71.6362C31.477 71.5342 27.8953 71.7379 24.3925 70.6807C19.064 69.1005 18.6865 61.3541 18.2915 54.856C17.7472 45.7207 17.9579 36.4195 18.985 27.3604C19.5649 22.2773 21.8468 19.2442 25.3757 18.9141C37.2883 17.7163 49.2802 17.8582 61.1664 18.4171C62.4218 18.4683 63.6858 18.7483 64.9237 19.067C71.0337 20.6215 71.1828 29.4002 71.5788 36.7902C71.9739 44.2565 71.807 51.7611 71.052 59.1765C70.4464 65.3164 69.2876 70.4651 64.3969 70.962C58.269 71.6122 52.282 72.1354 46.1371 71.9689C46.1374 71.9291 46.1022 71.9291 46.0846 71.9291ZM39.5972 56.385C44.2151 52.537 48.7446 48.753 53.3359 44.9307C48.7095 41.0826 44.1885 37.2986 39.5972 33.4763V56.385Z" fill="#FF0000"/>
+<defs>
+<filter id="filter0_bi_15_703" x="-40" y="-40" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="20"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_15_703"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_15_703" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_15_703"/>
+</filter>
+<filter id="filter1_bi_15_703" x="-31" y="-31" width="152" height="152" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="20"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_15_703"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_15_703" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_15_703"/>
+</filter>
+</defs>
+</svg>

@@ -1,6 +1,5 @@
 <script setup>
     import { RouterLink } from 'vue-router';
-    import '@fortawesome/fontawesome-free/css/all.css'
 
 
 </script>
@@ -34,98 +33,86 @@
         <button>Try Now</button>
       </div>
 
-      <div class="img">
-        <img src="../assets/Photo.png" alt="">
+
+      <div>
+        <div class="vector">
+          <img src="../assets/images/Vector2.svg" alt="">
+        </div>
+
+        <div class="illustration2">
+          <img src="../assets/images/Illustration2.svg" alt="">
+        </div>
+
+        <div class="img">
+          <img src="../assets/images/Photo.png" alt="">
+        </div>
+
+        <div>
+          <img src="../assets/images/Facebook.svg"  style="position: absolute; hight: 60px; width: 60px; left: 850px; top: -475px;" alt="">
+          <img src="../assets/images/ig.svg"  style="position: absolute; hight: 60px; width: 60px; left: 985px; top: -440px;" alt="">
+          <img src="../assets/images/in.svg"  style="position: absolute; hight: 60px; width: 60px; left: 1140px; top: -460px;" alt="">
+          <img src="../assets/images/Youtube.svg"  style="position: absolute; hight: 60px; width: 60px; left: 890px; top: -340px;" alt="">
+          <img src="../assets/images/tt.svg"  style="position: absolute; hight: 60px; width: 60px; left: 1000px; top: -240px;" alt="">
+          <img src="../assets/images/t.svg"  style="position: absolute; hight: 60px; width: 60px; left: 885px; top: -110px;" alt="">
+        </div>
+
+        <div class="Card">
+          <img src="../assets/images/Card.svg" alt="">
+        </div>
       </div>
 
-      <div style="font-size: 44px">
-        <i class="fa-brands fa-facebook" 
-        style="color: #1977f3;
-        position: absolute;
-        left: 870px;
-        top: -475px;"></i>
-
-        <i class="fa-brands fa-instagram"
-        style="color: #1977f3;
-        position: absolute;
-        left: 1065px;
-        top: -450px;"></i>
-
-        <i class="fa-brands fa-linkedin"
-        style="color: #0A66C2;
-        position: absolute;
-        left: 1265px;
-        top: -465px;"></i>
-
-        <i class="fa-brands fa-youtube" 
-        style="color: #FF0000;
-        position: absolute;
-        left: 960px;
-        top: -350px;"></i>
-
-        <i class="fa-brands fa-tiktok" 
-        style="position: absolute;
-        left: 1100px;
-        top: -250px;"></i>
-
-        <i class="fa-brands fa-twitter"
-        style="color: #1D9BF0;
-        position: absolute;
-        left: 930px;
-        top: -100px;"></i>
-      </div>
       
-      
-
-      
+     
 </template>
 
 <style scoped>
-.tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
+  *{
+     margin: 0;
+     padding: 0;
+    }
+  .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+  }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin-right: 20px;
-  padding: 0 20px;
-  height: 54px;
-}
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 20px;
+    height: 54px;
+  }
 
-.nav-item {
-  margin: 0 10px;
-}
+  .nav-item {
+    margin: 0 10px;
+  }
 
-.nav-link {
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: 400;
-  color: black;
-  background: #FFFFFF;
-  font-family: 'Candara', sans-serif;
-}
+  .nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    background: #FFFFFF;
+    font-family: 'Candara', sans-serif;
+  }
 
-.option {
-  background-color: transparent; 
-  border: none;
-  font-family: 'Candara', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin-left: 10px;
-}
+  .option {
+    background-color: transparent; 
+    border: none;
+    font-family: 'Candara', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
 
 .button {
-    position: absolute;
-    right: 150px;
     background-color: transparent;
     border: 2px solid #44C079;
     border-radius: 15px;
@@ -136,11 +123,10 @@
     font-weight: 400;
 }
 .text {
-    position: absolute;
     width: 380px;
     height: 180px;
-    left: 140px;
-    top: 139px;
+    margin-left: 8rem;
+    margin-top: 3rem;
 }
 .text h1 {
     font-family: 'Source Sans Pro';
@@ -174,26 +160,36 @@
     line-height: 35px;
     text-align: center;
     letter-spacing: 0.05em;
-    top: 60px;
-    left: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
     box-shadow: 20px 20px 50px #44C079, -20px -20px 50px #44C079;
 }
 
-.img img {
-  width: 300px;
-  height: 475px;
-  left: 575px;
-  top: -35px
-  
-}
-
-.fa-brands fa-facebook{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 1144px;
-  top: 190px;
-}
+  .img img {
+    width: 300px;
+    height: 475px;
+    margin-left: 550px;
+    margin-top: -440px
+    
+  }
+  .vector img {
+    width: 650px;
+    height: 400px;
+    margin-left: 525px;
+    margin-top: -225px
+  }
+  .illustration2 img{ 
+    width: 180px;
+    height: 120px;
+    margin-left: 700px;
+    margin-top: -150px;
+  }
+  .Card img {
+    width: 220px;
+    height: 160px;
+    margin-left: 990px;
+    margin-top: -150px;
+  }
 
   
 </style>
