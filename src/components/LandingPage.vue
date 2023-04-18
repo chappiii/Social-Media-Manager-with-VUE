@@ -30,9 +30,8 @@
         <p>Stay organized, save time, and easily manage <br>
             your social media with monitoring, and team <br>
             collaboration tools.</p>
-        <button>Try Now</button>
+        <button class="but">Try Now</button>
       </div>
-
 
       <div>
         <div class="vector">
@@ -61,8 +60,7 @@
         </div>
       </div>
 
-      
-     
+
 </template>
 
 <style scoped>
@@ -147,7 +145,7 @@
     color: #383838;
 }
 
-.text button {
+.but {
     background-color: #44C079;
     border: 2px solid #44C079;
     border-radius: 15px;
@@ -169,27 +167,30 @@
     width: 300px;
     height: 475px;
     margin-left: 550px;
-    margin-top: -440px
+    margin-top: -440px;
+    margin-bottom: 0px;
     
   }
   .vector img {
     width: 650px;
     height: 400px;
     margin-left: 525px;
-    margin-top: -225px
+    margin-top: -230px;
+    margin-bottom: 0px;
   }
   .illustration2 img{ 
     width: 180px;
     height: 120px;
     margin-left: 700px;
     margin-top: -150px;
+    margin-bottom: 0px;
   }
   .Card img {
     width: 220px;
     height: 160px;
     margin-left: 990px;
     margin-top: -150px;
+    margin-bottom: 0px;
   }
 
-  
 </style>

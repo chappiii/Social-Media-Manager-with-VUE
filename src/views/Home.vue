@@ -2,6 +2,7 @@
   import { RouterView } from 'vue-router';
   import LandingPage from '../components/LandingPage.vue';
   import Publish from '../components/Publish.vue';
+  import Aalyze from '../components/Analyze.vue';
   
 </script>
 
@@ -9,6 +10,7 @@
     <div>
       <LandingPage />
       <Publish />
+      <Aalyze />
     </div>
 </template>
 <style scoped>

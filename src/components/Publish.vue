@@ -9,16 +9,17 @@
         <p>Our all-in-one social media <br> management platform unlocks the full <br> potential of social to transform not just <br> your marketing strategy—but every <br> area of your organization.</p>
         <div class="icon">
             <div>
-                <img src="../assets/images/Facebook.svg" alt=""><p>Facebook</p>
-                <img src="../assets/images/ig.svg" alt=""><p>Instagram</p>
-                <img src="../assets/images/in.svg" alt=""><p>Linkedin</p>
+                <a href=""><img src="../assets/images/Facebook.svg" alt=""><p>Facebook</p></a>
+                <a href=""><img src="../assets/images/ig.svg" alt=""><p>Instagram</p></a>
+                <a href=""><img src="../assets/images/in.svg" alt=""><p>Linkedin</p></a>
             </div>
             <div >
-                <img src="../assets/images/tt.svg" alt=""><p>TikTok</p>
-                <img src="../assets/images/Youtube.svg" alt=""><p>Youtube</p>
-                <img src="../assets/images/t.svg" alt=""><p>Twitter</p>
+                <a href=""><img src="../assets/images/tt.svg" alt=""><p>TikTok</p></a>
+                <a href=""><img src="../assets/images/Youtube.svg" alt=""><p>Youtube</p></a>
+                <a href=""><img src="../assets/images/t.svg" alt=""><p>Twitter</p></a>
             </div>
         </div>
+
 
         <div class="button">
             <button>Start Now</button>
@@ -106,7 +107,7 @@
         font-size: 15px;
         margin: 0;
         display: inline-block;
-        margin: 0;
+        color: black;
     }
     .button button {
         background-color: #44C079;
